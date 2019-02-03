@@ -3,6 +3,8 @@
 pkgrrtools
 ==========
 
+[![Travis-CI Build Status](https://travis-ci.org/tomasjanikds/pkgrrtools.svg?branch=master)](https://travis-ci.org/tomasjanikds/pkgrrtools)
+
 This repository contains the data and code for our paper:
 
 > Authors, (YYYY). *Title of paper*. Name of journal/book <https://doi.org/xxx/xxx>

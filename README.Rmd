@@ -13,6 +13,7 @@ knitr::opts_chunk$set(
 ```
 
 # pkgrrtools
+[![Travis-CI Build Status](https://travis-ci.org/tomasjanikds/pkgrrtools.svg?branch=master)](https://travis-ci.org/tomasjanikds/pkgrrtools)
 
 This repository contains the data and code for our paper:
 

@@ -102,5 +102,7 @@ print(summary(results))
 # rrtools::use_analysis()
 # # add packages from paper.Rmd file
 # rrtools::add_dependencies_to_description()
-# # add dockerfile
+# add dockerfile
 # rrtools::use_dockerfile()
+# # add travisci
+# rrtools::use_travis()
