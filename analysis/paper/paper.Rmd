@@ -1,8 +1,8 @@
 ---
 title: "Title Goes Here"
 author:
-  - Author One
-  - Author Two
+  - Tomas
+  - Janik
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
     bookdown::html_document2:
@@ -31,9 +31,9 @@ knitr::opts_chunk$set(
   fig.path = "../figures/"
 )
 
-#library(pkgrrtools) # Or use devtools::load_all('.', quiet = T) if your code is in script files, rather than as functions in the `/R` diretory
+library(pkgrrtools) # Or use devtools::load_all('.', quiet = T) if your code is in script files, rather than as functions in the `/R` diretory
 
-devtools::load_all('.', quiet = T)
+# devtools::load_all('.', quiet = T)
 ```
 
 # Introduction
