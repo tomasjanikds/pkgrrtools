@@ -1,0 +1,18 @@
+Package: pkgrrtools
+Title: Testing the rrtools package
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Tomas",
+           family = "Janik",
+           role = c("aut", "cre"),
+           email = "tomas.janik.uk@gmail.com")
+Description: Just found out the new package 'rrtools' so want to test it.
+License: MIT + file LICENSE
+ByteCompile: true
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    data.table,
+    caret
+URL: https://github.com/tomasjanikds/pkgrrtools
+BugReports: https://github.com/tomasjanikds/pkgrrtools/issues
