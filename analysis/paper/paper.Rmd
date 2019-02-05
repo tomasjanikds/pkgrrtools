@@ -47,7 +47,9 @@ Here is a citation [@Marwick2017]
 ```
 
 # Methods
-
+```{r}
+source(here::here('R', 'sample_script.R'))
+```
 # Results
 
 ```{r get-data, eval = FALSE}
