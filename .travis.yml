@@ -17,7 +17,7 @@ before_install:
     # create & run container using our dockerfile, i.e. compile pkg and render Rmd to Word doc
   - docker build -t $REPO .
 
-r_github_packages: tomasjanikds/pkgrrtools
+# r_github_packages: tomasjanikds/pkgrrtools
 
 # push our custom docker container to docker hub, env vars stored on travis-ci.org
 after_success:
