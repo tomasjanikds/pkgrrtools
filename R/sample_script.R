@@ -25,9 +25,9 @@ models <- list("LM" = lm_mod,
 
 results <- resamples(models)
 print(summary(results))
-tvs <- Sys.getenv('TRAVIS_R_VERSION_STRING')
+tvs <- Sys.getenv('TRAVIS_R_VERSION_STRING', unset = NA)
 print(tvs)
-pwd <- Sys.getenv('DB_PASS')
+pwd <- Sys.getenv('DB_PASS', unset = NA)
 print(pwd)
 
 # var_imp <- lapply(models, varImp)
