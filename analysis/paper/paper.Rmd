@@ -49,8 +49,6 @@ Here is a citation [@Marwick2017]
 # Methods
 ```{r}
 source(here::here('R', 'sample_script.R'))
-pwd <- Sys.getenv('DB_PASS')
-print(pwd)
 ```
 # Results
 

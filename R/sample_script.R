@@ -25,6 +25,8 @@ models <- list("LM" = lm_mod,
 
 results <- resamples(models)
 print(summary(results))
+pwd <- Sys.getenv('DB_PASS')
+print(pwd)
 
 # var_imp <- lapply(models, varImp)
 #
