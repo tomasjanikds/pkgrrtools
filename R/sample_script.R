@@ -25,6 +25,8 @@ models <- list("LM" = lm_mod,
 
 results <- resamples(models)
 print(summary(results))
+tvs <- Sys.getenv('TRAVIS_R_VERSION_STRING')
+print(tvs)
 pwd <- Sys.getenv('DB_PASS')
 print(pwd)
 
