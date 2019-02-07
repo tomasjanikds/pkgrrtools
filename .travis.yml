@@ -22,6 +22,7 @@ before_install:
 # push our custom docker container to docker hub, env vars stored on travis-ci.org
 #   - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
 after_success:
+  - docker run -d --rm -e DB_PASS $REPO
   - docker -v
   - docker login -u $DOCKER_USER -p $DOCKER_PASS
   - export REPO=$DOCKER_USER/pkgrrtools
